@@ -19,8 +19,8 @@ back with their settings and placement intact.
 ## Requirements
 
 Omarchy 4 with `omarchy-shell`, Python 3, and the `omarchy` CLI. Tested on
-Omarchy 4.0.4. No extra Python packages, background network requests, or sudo
-access are required.
+Omarchy 4.0.4. No extra Python packages are required. The plugin does not make
+background network requests.
 
 ## Install
 
