@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "grivera.switchboard",
+  "name": "Switchboard",
+  "version": "1.0.1",
+  "author": "grivera",
+  "description": "A compact, searchable switchboard for installed Omarchy plugins",
+  "kinds": [
+    "service",
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml",
+    "service": "Service.qml"
+  },
+  "barWidget": {
+    "displayName": "Switchboard",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  },
+  "keepLoaded": true
+}
