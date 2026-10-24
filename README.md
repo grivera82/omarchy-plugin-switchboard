@@ -1,5 +1,9 @@
 # Switchboard
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Omarchy plugin marketplace](https://img.shields.io/badge/Omarchy-plugin%20marketplace-2f6f4f.svg)](https://plugins.omarchy.org/plugin.html?id=grivera.switchboard)
+
+> Part of the [Omarchy plugin marketplace](https://plugins.omarchy.org/plugin.html?id=grivera.switchboard), listed as **Switchboard** (plugin ID `grivera.switchboard`). The marketplace registry lives at [omacom/omarchy-plugin-marketplace](https://github.com/omacom/omarchy-plugin-marketplace).
+
 Keep your Omarchy bar tidy with a searchable plugin manager behind one icon.
 Enable or disable installed plugins without closing the menu, and bring widgets
 back with their settings and placement intact.
@@ -37,6 +41,18 @@ omarchy-shell grivera.switchboard toggle
 Search takes focus when opened. Tab moves through controls. Down from search
 enters the list; arrow keys navigate, and Enter or Space toggles the current row.
 Escape or an outside click closes the menu.
+
+### Manual install
+
+To install without the plugin manager, clone the repository into Omarchy's
+plugin folder, check it with Omarchy's validator, then rescan and enable it:
+
+```
+git clone https://github.com/grivera82/omarchy-plugin-switchboard.git ~/.config/omarchy/plugins/grivera.switchboard
+omarchy plugin validate ~/.config/omarchy/plugins/grivera.switchboard
+omarchy-shell shell rescanPlugins
+omarchy plugin enable grivera.switchboard --section right
+```
 
 ## Update
 
